@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    color: dodgerblue;
+}
+    
+.box2{
+    width: 72%;
+    float: left;
+} 
+
+.kijicat li a{
+   display: block;
+   padding: 5px;
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+   background-color: darkgray;
+   margin-right: 5px;
+   border-radius: 3px;
+}
+
+.kijicat li a:hover{
+    background-color: #eee;
+}
+
+.kijicat ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-top: 33px;
+}
+ 
+.box3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.sub{
+    width: 25%;
+    float: right;
+}
+
+.navi ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 6px;
+    background-color: darkgray;
+}
+
+.navi a{
+    display: block;
+    border-radius: 10px;
+    padding: 12px 24px;
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+.navi li{
+list-style-type: none;
+}
+
+.share li a{
+    display: block;
+    padding: 10px 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.share-tw{
+    background-color: #55acee;
+}
+
+.share-fb{
+    background-color: #0165E1;
+}
+
+.share-in{
+    background-color:#cf2e92;
+}
+
+.share ul{
+    display: flex;
+}
+
+.share li{
+    width: 33.333%;
+    list-style-type:none ;
+}
+
+.sideBar1 ul{
+    display: block;
+    padding: 0px;
+    color: rgb(33,33,33);
+    text-decoration: none;
+    list-style: none;
+}
+
+.sideBar1 a{
+    display: block;
+    border-radius: 10px;
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+.kanren{
+    background-color: #f0f0d4;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.kanren h2{
+    color: #737426;
+
+}
+
+.kanren ul{
+    display: flex;
+    list-style: none;
+}
+
+.kanren li{
+    width: 25%;
+}
+
+.kanren a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.boxA{
+    margin-left: 15px;
+}
+.box2 h2{
+    margin-bottom:25px
+}
+
+@media(max-width:599px){
+
+}
+
+@media(min-width:600px) and (max-width:767px){
+
+}
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:1040px){
+    .box1,.navi,.boxA,.footer{
+        width:1000px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+}
